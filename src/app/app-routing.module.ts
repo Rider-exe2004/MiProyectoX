@@ -5,10 +5,10 @@ import { ProductosComponent } from './productos/productos.component';
 import { HomeComponent } from './inicio/home/home.component';
 
 const routes: Routes = [
- { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  
+  {path: 'home', component:HomeComponent},
   { path: 'productos', component: ProductosComponent},
   { path: 'acerca-de', component:AcercaDeComponent },
-  {path: 'home', component:HomeComponent}
   
 ];
 

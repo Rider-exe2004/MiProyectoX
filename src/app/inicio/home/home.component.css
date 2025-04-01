@@ -1,5 +1,10 @@
-.home{
-display: flex;
-width:200px ;
-height: 100px
-}
+#carouselExampleDark {
+    max-width: 600px; /* Ajusta el ancho máximo */
+    margin: auto; /* Centrar el slider */
+  }
+  
+  .carousel-inner img {
+    height: 300px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Evita deformaciones y mantiene la proporción */
+  }
+  
