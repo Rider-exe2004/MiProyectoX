@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './inicio/navbar/navbar.component';
 import { FooterComponent } from './inicio/footer/footer.component';
+import { ProductosComponent } from './productos/productos.component';
+import { AcercaDeComponent } from './inicio/acerca-de/acerca-de.component';
+import { HomeComponent } from './inicio/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ProductosComponent,
+    AcercaDeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
