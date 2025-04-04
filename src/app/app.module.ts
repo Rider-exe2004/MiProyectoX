@@ -8,6 +8,11 @@ import { FooterComponent } from './inicio/footer/footer.component';
 import { ProductosComponent } from './productos/productos.component';
 import { AcercaDeComponent } from './inicio/acerca-de/acerca-de.component';
 import { HomeComponent } from './inicio/home/home.component';
+import { IosComponent } from './ios/ios.component';
+import { AndroidComponent } from './android/android.component';
+import { LaptopsComponent } from './laptops/laptops.component';
+import { PcsComponent } from './pcs/pcs.component';
+import { TvsComponent } from './tvs/tvs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { HomeComponent } from './inicio/home/home.component';
     FooterComponent,
     ProductosComponent,
     AcercaDeComponent,
-    HomeComponent
+    HomeComponent,
+    IosComponent,
+    AndroidComponent,
+    LaptopsComponent,
+    PcsComponent,
+    TvsComponent
   ],
   imports: [
     BrowserModule,
